@@ -52,10 +52,6 @@ Ainda não tenho experiência profissional, mas estou sempre buscando aprender, 
 </p>
 
 ## Atividade:
-
-<img src="https://github-readme-stats.vercel.app/api?username=EduardoStaudt&show_icons=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=ff8c00&border_color=30363d" />
-
-
 <p align="center">
   <img
        src="https://github-readme-activity-graph.vercel.app/graph?username=EduardoStaudt&bg_color=0d1117&color=58a6ff&line=ff8c00&point=58a6ff&area=true&hide_border=true" />
