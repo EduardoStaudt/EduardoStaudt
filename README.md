@@ -12,16 +12,29 @@ Ainda não tenho experiência profissional, mas estou sempre buscando aprender, 
 
 
 ## Habilidades:
-- Pensamento lógico
-- Proatividade
-- Trabalho em equipe(bom como lider e como membro)
-- Resiliência
-- Diciplina
-- Organização
-- Criatividade
-- Curiosidade(um dos mais fortes)
-- Matemática 
-- Comunicação básica em Inglês
+<table class="card">
+  <tr>
+    <td class="col">
+      <ul class="list blue">
+        <li>Pensamento lógico</li>
+        <li>Proatividade</li>
+        <li>Trabalho em equipe (bom como líder e como membro)</li>
+        <li>Resiliência</li>
+        <li>Disciplina</li>
+      </ul>
+    </td>
+    <td class="col">
+      <ul class="list orange">
+        <li>Organização</li>
+        <li>Criatividade</li>
+        <li>Curiosidade (um dos meus pontos mais fortes)</li>
+        <li>Matemática</li>
+        <li>Comunicação básica em inglês</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 
 ## Pontos em desenvolvimento:
 - **Comunicação** — estou trabalhando continuamente para melhorar.  
