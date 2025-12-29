@@ -71,19 +71,21 @@ Ainda não tenho experiência profissional, mas estou sempre buscando aprender, 
 </p>
 
 ## Contatos:
-  <a href="https://www.youtube.com/@EduardoAndreiStaudt" target="_blank">
-    <img loading="lazy" src="https://img.shields.io/badge/YouTube-0000FF?style=for-the-badge&logo=youtube&logoColor=white">
-  </a>
-  <a href="https://instagram.com/SEU_USUARIO_AQUI" target="_blank">
-    <img loading="lazy" src="https://img.shields.io/badge/Instagram-FFA500?style=for-the-badge&logo=instagram&logoColor=white">
-  </a>
-  <a href="mailto:programadorstaudt@gmail.com" target="_blank">
-    <img loading="lazy" src="https://img.shields.io/badge/Gmail-0000FF?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-  <a href="https://www.linkedin.com/in/eduardo-andrei-staudt-854115377/" target="_blank">
-    <img loading="lazy" src="https://img.shields.io/badge/LinkedIn-FFA500?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-  <a href="https://www.tiktok.com/@edusta.dev" target="_blank">
-    <img loading="lazy" src="https://img.shields.io/badge/TikTok-0000FF?style=for-the-badge&logo=tiktok&logoColor=white">
-  </a>
-</div>
+<p align="center">
+    <a href="https://www.youtube.com/@EduardoAndreiStaudt" target="_blank">
+      <img loading="lazy" src="https://img.shields.io/badge/YouTube-0000FF?style=for-the-badge&logo=youtube&logoColor=white">
+    </a>
+    <a href="https://instagram.com/SEU_USUARIO_AQUI" target="_blank">
+      <img loading="lazy" src="https://img.shields.io/badge/Instagram-FFA500?style=for-the-badge&logo=instagram&logoColor=white">
+    </a>
+    <a href="mailto:programadorstaudt@gmail.com" target="_blank">
+      <img loading="lazy" src="https://img.shields.io/badge/Gmail-0000FF?style=for-the-badge&logo=gmail&logoColor=white">
+    </a>
+    <a href="https://www.linkedin.com/in/eduardo-andrei-staudt-854115377/" target="_blank">
+      <img loading="lazy" src="https://img.shields.io/badge/LinkedIn-FFA500?style=for-the-badge&logo=linkedin&logoColor=white">
+    </a>
+    <a href="https://www.tiktok.com/@edusta.dev" target="_blank">
+      <img loading="lazy" src="https://img.shields.io/badge/TikTok-0000FF?style=for-the-badge&logo=tiktok&logoColor=white">
+    </a>
+  </div>
+</p>
