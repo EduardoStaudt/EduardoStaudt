@@ -1,10 +1,9 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,100:ff8c00&height=160&section=header&animation=twinkling" />
-
----
-
+<img width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,100:ff8c00&height=135&section=header&animation=fadeIn" />
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inconsolata&size=50&duration=2200&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=Eduardo+Andrei+Staudt;Java+%7C+Flutter+%7C+Python+%7C+ML+%26+AI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inconsolata&size=44&duration=2200&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=Eduardo+Andrei+Staudt;18+Years+Old;Java+%7C+Flutter+%7C+Python+%7C+ML+%7C+IA" />
 </div>
+
 
 ---
 
@@ -91,6 +90,6 @@ Ainda não tenho experiência profissional, mas estou sempre buscando aprender, 
   </div>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,100:ff8c00&height=160&section=footer&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,100:ff8c00&height=135&section=footer&animation=fadeIn" />
 
 
