@@ -1,5 +1,14 @@
-# EDUARDO ANDREI STAUDT
-Olá! Eu sou o **Eduardo Andrei Staudt**, tenho **17 anos** e sou estudante de **Ciência da Computação na UTFPR (Universidade Tecnológica Federal do Paraná)** e também de **Ciências Econômicas na Uninter** *(bolsista)*.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,100:ff8c00&height=160&section=header&animation=twinkling" />
+
+---
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inconsolata&size=50&duration=2200&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=Eduardo+Andrei+Staudt;Java+%7C+Flutter+%7C+Python+%7C+ML+%26+AI" alt="Typing SVG" />
+</div>
+
+---
+
+Olá! Eu sou o **Eduardo Andrei Staudt**, tenho **18 anos** e sou estudante de **Ciência da Computação na UTFPR (Universidade Tecnológica Federal do Paraná)** e também de **Ciências Econômicas na Uninter** *(bolsista 100% valeu ENEM ksksks)*.
 
 Sou fascinado por conhecimento e tenho muita curiosidade, principalmente nas áreas de **programação**, **pensamento lógico**, **matemática**, **investimentos** e **basquete**.  
 Atualmente estou direcionando meus estudos para **Python, Java, Flutter, Machine Learning e Inteligência Artificial**.
@@ -55,14 +64,6 @@ Ainda não tenho experiência profissional, mas estou sempre buscando aprender, 
   <img width="40px" height="40px" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/matlab.png">
 </p>
 
-## Estatísticas:
-
-<p align="center">
-  <img height="165"
-       src="https://github-readme-stats.vercel.app/api?username=EduardoStaudt&show_icons=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=ff8c00&border_color=30363d&hide_border=false"/>
-  <img height="165"
-       src="https://github-readme-stats.vercel.app/api/top-langs/?username=EduardoStaudt&layout=compact&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=ff8c00&border_color=30363d&hide_border=false"/>
-</p>
 
 ## Atividade:
 <p align="center">
@@ -89,3 +90,7 @@ Ainda não tenho experiência profissional, mas estou sempre buscando aprender, 
     </a>
   </div>
 </p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,100:ff8c00&height=160&section=footer&animation=fadeIn" />
+
+
