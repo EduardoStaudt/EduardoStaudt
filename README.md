@@ -11,9 +11,9 @@
 <p>  Olá! Eu sou o <b>Eduardo Andrei Staudt</b>, tenho <b>18 anos</b> e sou estudante de <b>Ciência da Computação na UTFPR (Universidade Tecnológica Federal do Paraná)</b> e também de <b>Ciências Econômicas na Uninter</b> <i>(bolsista 100% valeu ENEM ksksks)</i>.</p>
 
 <p>Sou fascinado por conhecimento e tenho muita curiosidade, principalmente nas áreas de <b>programação</b>, <b>pensamento lógico</b>, <b>matemática</b>, <b>investimentos</b> e <b>basquete</b>.<br/>
-Atualmente estou direcionando meus estudos para <b>Python, Java, Flutter, Machine Learning e Inteligência Artificial</b>.</p>
+Atualmente estou direcionando meus estudos para <b>Python, Java, Machine Learning e Inteligência Artificial</b>.</p>
 
-<p>Ainda não tenho experiência profissional, estudo programação a quase um ano, estou sempre buscando aprender, praticar e evoluir. Criei este GitHub para <b>documentar meus projetos e aprendizados</b>, e também para compartilhar com pessoas que curtem os mesmos temas.</p>
+<p>Ainda não tenho experiência profissional, estudo programação a um ano e meio, estou sempre buscando aprender, praticar e evoluir. Criei este GitHub para <b>documentar meus projetos e aprendizados</b>, e também para compartilhar com pessoas que curtem os mesmos temas.</p>
 
   </div>
 </div>
