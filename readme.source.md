@@ -276,90 +276,119 @@
 })()
 ```
 
-```aura width=860 height=36
-<div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', gap: 16, fontFamily: 'Inter' }}>
-  <div style={{ display: 'flex', flex: 1, height: 1, background: 'linear-gradient(90deg, rgba(255,90,100,0), rgba(255,90,100,0.55))' }} />
-  <span style={{ fontSize: 11, fontWeight: 700, color: 'rgba(230,230,230,0.7)', letterSpacing: '4px' }}>REDES</span>
-  <div style={{ display: 'flex', flex: 1, height: 1, background: 'linear-gradient(90deg, rgba(255,90,100,0.55), rgba(255,90,100,0))' }} />
-</div>
+```aura width=120 height=44 link="https://www.linkedin.com/in/eduardo-andrei-staudt/" inline align=center
+<SocialMediaButton
+  icon="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iNDgiCiAgaGVpZ2h0PSI0OCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiNmZmZmZmYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgogIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLWJyYW5kLWxpbmtlZGluIgo+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIiAvPgogIDxwYXRoIGQ9Ik04IDExdjUiIC8+CiAgPHBhdGggZD0iTTggOHYuMDEiIC8+CiAgPHBhdGggZD0iTTEyIDE2di01IiAvPgogIDxwYXRoIGQ9Ik0xNiAxNnYtM2EyIDIgMCAxIDAgLTQgMCIgLz4KICA8cGF0aCBkPSJNMyA3YTQgNCAwIDAgMSA0IC00aDEwYTQgNCAwIDAgMSA0IDR2MTBhNCA0IDAgMCAxIC00IDRoLTEwYTQgNCAwIDAgMSAtNCAtNGwwIC0xMCIgLz4KPC9zdmc+"
+  text="LinkedIn"
+  backgroundColor="#111111"
+  width={120}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#ffffff' },
+    { offset: '10%', color: '#111111' },
+    { offset: '50%', color: '#ff5a64' },
+    { offset: '60%', color: '#ffffff' },
+    { offset: '80%', color: '#000000' },
+    { offset: '100%', color: '#8c2a31' },
+  ]}
+/>
 ```
 
-```aura width=132 height=44 link="https://www.linkedin.com/in/eduardo-andrei-staudt/" inline align=center
-<div style={{ width: '100%', height: '100%', display: 'flex', padding: '0 6px', boxSizing: 'border-box' }}>
-  <SocialMediaButton
-    icon="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iNDgiCiAgaGVpZ2h0PSI0OCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiNmZmZmZmYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgogIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLWJyYW5kLWxpbmtlZGluIgo+CiAgPHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIiAvPgogIDxwYXRoIGQ9Ik04IDExdjUiIC8+CiAgPHBhdGggZD0iTTggOHYuMDEiIC8+CiAgPHBhdGggZD0iTTEyIDE2di01IiAvPgogIDxwYXRoIGQ9Ik0xNiAxNnYtM2EyIDIgMCAxIDAgLTQgMCIgLz4KICA8cGF0aCBkPSJNMyA3YTQgNCAwIDAgMSA0IC00aDEwYTQgNCAwIDAgMSA0IDR2MTBhNCA0IDAgMCAxIC00IDRoLTEwYTQgNCAwIDAgMSAtNCAtNGwwIC0xMCIgLz4KPC9zdmc+"
-    text="LinkedIn"
-    backgroundColor="#111111"
-    width={120}
-    height={44}
-    gradientStops={[
-      { offset: '0%', color: '#ffffff' },
-      { offset: '10%', color: '#111111' },
-      { offset: '50%', color: '#ff5a64' },
-      { offset: '60%', color: '#ffffff' },
-      { offset: '80%', color: '#000000' },
-      { offset: '100%', color: '#8c2a31' },
-    ]}
-  />
-</div>
+```aura width=12 height=44 inline align=center
+<div style={{ width: '100%', height: '100%', display: 'flex' }} />
 ```
 
-```aura width=140 height=44 link="https://www.instagram.com/eduardo_staudt_/" inline align=center
-<div style={{ width: '100%', height: '100%', display: 'flex', padding: '0 6px', boxSizing: 'border-box' }}>
-  <SocialMediaButton
-    icon="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iNDgiCiAgaGVpZ2h0PSI0OCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiNmZmZmZmYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgogIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLWJyYW5kLWluc3RhZ3JhbSIKPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIgLz4KICA8cGF0aCBkPSJNMyA3YTQgNCAwIDAgMSA0IC00aDEwYTQgNCAwIDAgMSA0IDR2MTBhNCA0IDAgMCAxIC00IDRoLTEwYTQgNCAwIDAgMSAtNCAtNGwwIC0xMCIgLz4KICA8cGF0aCBkPSJNOC41IDEyYTMuNSAzLjUgMCAxIDAgNyAwYTMuNSAzLjUgMCAwIDAgLTcgMCIgLz4KICA8cGF0aCBkPSJNMTcgN3YuMDEiIC8+Cjwvc3ZnPg=="
-    text="Instagram"
-    backgroundColor="#111111"
-    width={128}
-    height={44}
-    gradientStops={[
-      { offset: '0%', color: '#ffffff' },
-      { offset: '10%', color: '#111111' },
-      { offset: '50%', color: '#ff5a64' },
-      { offset: '60%', color: '#ffffff' },
-      { offset: '80%', color: '#000000' },
-      { offset: '100%', color: '#8c2a31' },
-    ]}
-  />
-</div>
+```aura width=128 height=44 link="https://www.instagram.com/eduardo_staudt_/" inline align=center
+<SocialMediaButton
+  icon="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iNDgiCiAgaGVpZ2h0PSI0OCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiNmZmZmZmYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgogIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLWJyYW5kLWluc3RhZ3JhbSIKPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIgLz4KICA8cGF0aCBkPSJNMyA3YTQgNCAwIDAgMSA0IC00aDEwYTQgNCAwIDAgMSA0IDR2MTBhNCA0IDAgMCAxIC00IDRoLTEwYTQgNCAwIDAgMSAtNCAtNGwwIC0xMCIgLz4KICA8cGF0aCBkPSJNOC41IDEyYTMuNSAzLjUgMCAxIDAgNyAwYTMuNSAzLjUgMCAwIDAgLTcgMCIgLz4KICA8cGF0aCBkPSJNMTcgN3YuMDEiIC8+Cjwvc3ZnPg=="
+  text="Instagram"
+  backgroundColor="#111111"
+  width={128}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#ffffff' },
+    { offset: '10%', color: '#111111' },
+    { offset: '50%', color: '#ff5a64' },
+    { offset: '60%', color: '#ffffff' },
+    { offset: '80%', color: '#000000' },
+    { offset: '100%', color: '#8c2a31' },
+  ]}
+/>
 ```
 
-```aura width=132 height=44 link="https://www.youtube.com/@EduardoAndreiStaudt" inline align=center
-<div style={{ width: '100%', height: '100%', display: 'flex', padding: '0 6px', boxSizing: 'border-box' }}>
-  <SocialMediaButton
-    icon="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iNDgiCiAgaGVpZ2h0PSI0OCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiNmZmZmZmYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgogIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLWJyYW5kLXlvdXR1YmUiCj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiIC8+CiAgPHBhdGggZD0iTTIgOGE0IDQgMCAwIDEgNCAtNGgxMmE0IDQgMCAwIDEgNCA0djhhNCA0IDAgMCAxIC00IDRoLTEyYTQgNCAwIDAgMSAtNCAtNHYtOCIgLz4KICA8cGF0aCBkPSJNMTAgOWw1IDNsLTUgM2wwIC02IiAvPgo8L3N2Zz4="
-    text="YouTube"
-    backgroundColor="#111111"
-    width={120}
-    height={44}
-    gradientStops={[
-      { offset: '0%', color: '#ffffff' },
-      { offset: '10%', color: '#111111' },
-      { offset: '50%', color: '#ff5a64' },
-      { offset: '60%', color: '#ffffff' },
-      { offset: '80%', color: '#000000' },
-      { offset: '100%', color: '#8c2a31' },
-    ]}
-  />
-</div>
+```aura width=12 height=44 inline align=center
+<div style={{ width: '100%', height: '100%', display: 'flex' }} />
 ```
 
-```aura width=122 height=44 link="mailto:programadorstaudt@gmail.com" inline align=center
-<div style={{ width: '100%', height: '100%', display: 'flex', padding: '0 6px', boxSizing: 'border-box' }}>
-  <SocialMediaButton
-    icon="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iNDgiCiAgaGVpZ2h0PSI0OCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiNmZmZmZmYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgogIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLW1haWwiCj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiIC8+CiAgPHBhdGggZD0iTTMgN2EyIDIgMCAwIDEgMiAtMmgxNGEyIDIgMCAwIDEgMiAydjEwYTIgMiAwIDAgMSAtMiAyaC0xNGEyIDIgMCAwIDEgLTIgLTJ2LTEwIiAvPgogIDxwYXRoIGQ9Ik0zIDdsOSA2bDkgLTYiIC8+Cjwvc3ZnPg=="
-    text="E-mail"
-    backgroundColor="#111111"
-    width={110}
-    height={44}
-    gradientStops={[
-      { offset: '0%', color: '#ffffff' },
-      { offset: '10%', color: '#111111' },
-      { offset: '50%', color: '#ff5a64' },
-      { offset: '60%', color: '#ffffff' },
-      { offset: '80%', color: '#000000' },
-      { offset: '100%', color: '#8c2a31' },
-    ]}
-  />
+```aura width=120 height=44 link="https://www.youtube.com/@EduardoAndreiStaudt" inline align=center
+<SocialMediaButton
+  icon="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iNDgiCiAgaGVpZ2h0PSI0OCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiNmZmZmZmYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgogIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLWJyYW5kLXlvdXR1YmUiCj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiIC8+CiAgPHBhdGggZD0iTTIgOGE0IDQgMCAwIDEgNCAtNGgxMmE0IDQgMCAwIDEgNCA0djhhNCA0IDAgMCAxIC00IDRoLTEyYTQgNCAwIDAgMSAtNCAtNHYtOCIgLz4KICA8cGF0aCBkPSJNMTAgOWw1IDNsLTUgM2wwIC02IiAvPgo8L3N2Zz4="
+  text="YouTube"
+  backgroundColor="#111111"
+  width={120}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#ffffff' },
+    { offset: '10%', color: '#111111' },
+    { offset: '50%', color: '#ff5a64' },
+    { offset: '60%', color: '#ffffff' },
+    { offset: '80%', color: '#000000' },
+    { offset: '100%', color: '#8c2a31' },
+  ]}
+/>
+```
+
+```aura width=12 height=44 inline align=center
+<div style={{ width: '100%', height: '100%', display: 'flex' }} />
+```
+
+```aura width=110 height=44 link="mailto:programadorstaudt@gmail.com" inline align=center
+<SocialMediaButton
+  icon="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iNDgiCiAgaGVpZ2h0PSI0OCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiNmZmZmZmYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgogIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLW1haWwiCj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiIC8+CiAgPHBhdGggZD0iTTMgN2EyIDIgMCAwIDEgMiAtMmgxNGEyIDIgMCAwIDEgMiAydjEwYTIgMiAwIDAgMSAtMiAyaC0xNGEyIDIgMCAwIDEgLTIgLTJ2LTEwIiAvPgogIDxwYXRoIGQ9Ik0zIDdsOSA2bDkgLTYiIC8+Cjwvc3ZnPg=="
+  text="E-mail"
+  backgroundColor="#111111"
+  width={110}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#ffffff' },
+    { offset: '10%', color: '#111111' },
+    { offset: '50%', color: '#ff5a64' },
+    { offset: '60%', color: '#ffffff' },
+    { offset: '80%', color: '#000000' },
+    { offset: '100%', color: '#8c2a31' },
+  ]}
+/>
+```
+
+```aura width=860 height=96
+<div style={{
+  width: '100%', height: '100%', background: '#08080c',
+  display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 10,
+  fontFamily: 'Inter', position: 'relative', overflow: 'hidden', borderRadius: 16,
+  border: '1px solid rgba(255,255,255,0.14)'
+}}>
+  <style>{`
+    @keyframes foot-right { 0%, 100% { transform: translateX(0px); opacity: 0.8; } 50% { transform: translateX(300px); opacity: 1; } }
+    @keyframes foot-left { 0%, 100% { transform: translateX(0px); opacity: 0.7; } 50% { transform: translateX(-280px); opacity: 1; } }
+    #foot-1 { animation: foot-right 11s ease-in-out infinite; }
+    #foot-2 { animation: foot-left 14s ease-in-out infinite; }
+  `}</style>
+  <svg width="860" height="96" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <radialGradient id="gf" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(255,80,90,0.28)" />
+        <stop offset="50%" stopColor="rgba(220,50,60,0.10)" />
+        <stop offset="75%" stopColor="rgba(220,50,60,0)" />
+      </radialGradient>
+    </defs>
+    <ellipse id="foot-1" cx="220" cy="128" rx="260" ry="80" fill="url(#gf)" />
+    <ellipse id="foot-2" cx="640" cy="128" rx="240" ry="74" fill="url(#gf)" />
+  </svg>
+  <div style={{ display: 'flex', alignItems: 'center', gap: 16, width: 600 }}>
+    <div style={{ display: 'flex', flex: 1, height: 1, background: 'linear-gradient(90deg, rgba(255,90,100,0), rgba(255,90,100,0.55))' }} />
+    <span style={{ fontSize: 11, fontWeight: 700, color: 'rgba(230,230,230,0.75)', letterSpacing: '4px' }}>OBRIGADO PELA VISITA</span>
+    <div style={{ display: 'flex', flex: 1, height: 1, background: 'linear-gradient(90deg, rgba(255,90,100,0.55), rgba(255,90,100,0))' }} />
+  </div>
+  <span style={{ fontSize: 11, color: 'rgba(210,210,210,0.45)', letterSpacing: '0.5px' }}>{'Eduardo Staudt · ' + new Date().getFullYear()}</span>
 </div>
 ```
