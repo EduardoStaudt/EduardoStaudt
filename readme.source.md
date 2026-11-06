@@ -1,4 +1,4 @@
-```aura width=860 height=200
+```aura width=860 height=180
 <div style={{
   width: '100%', height: '100%', background: '#08080c',
   display: 'flex', alignItems: 'center', fontFamily: 'Inter',
@@ -17,7 +17,7 @@
     #orb-5 { animation: breathe 7s ease-in-out infinite; }
   `}</style>
 
-  <svg width="860" height="200" style={{ position: 'absolute', top: 0, left: 0 }}>
+  <svg width="860" height="180" style={{ position: 'absolute', top: 0, left: 0 }}>
     <defs>
       <radialGradient id="ga" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stopColor="rgba(255,80,90,0.30)" />
@@ -34,15 +34,15 @@
         <stop offset="70%" stopColor="rgba(230,110,115,0)" />
       </radialGradient>
     </defs>
-    <ellipse id="orb-1" cx="180" cy="235" rx="260" ry="180" fill="url(#ga)" />
-    <ellipse id="orb-2" cx="320" cy="240" rx="220" ry="160" fill="url(#gb)" />
-    <ellipse id="orb-3" cx="450" cy="240" rx="180" ry="140" fill="url(#gc)" />
-    <ellipse id="orb-4" cx="600" cy="250" rx="160" ry="120" fill="url(#gb)" />
-    <ellipse id="orb-5" cx="760" cy="250" rx="130" ry="110" fill="url(#gc)" />
+    <ellipse id="orb-1" cx="180" cy="215" rx="260" ry="170" fill="url(#ga)" />
+    <ellipse id="orb-2" cx="320" cy="220" rx="220" ry="150" fill="url(#gb)" />
+    <ellipse id="orb-3" cx="450" cy="220" rx="180" ry="130" fill="url(#gc)" />
+    <ellipse id="orb-4" cx="600" cy="230" rx="160" ry="110" fill="url(#gb)" />
+    <ellipse id="orb-5" cx="760" cy="230" rx="130" ry="100" fill="url(#gc)" />
   </svg>
 
   <div style={{
-    position: 'absolute', left: 48, top: 52, width: 96, height: 96,
+    position: 'absolute', left: 48, top: 42, width: 96, height: 96,
     borderRadius: 48, background: 'linear-gradient(135deg, #6b1e25, #111118)',
     display: 'flex', alignItems: 'center', justifyContent: 'center',
   }}>
@@ -56,8 +56,8 @@
     <div style={{ display: 'flex', fontSize: 15, color: 'rgba(220,220,220,0.80)', fontWeight: 400, letterSpacing: '0.3px' }}>
       Ciência da Computação (UTFPR) e Ciências Econômicas (Uninter)
     </div>
-    <div style={{ display: 'flex', fontSize: 13, color: 'rgba(255,115,122,0.95)', fontWeight: 600, letterSpacing: '0.3px' }}>
-      Pesquisador de IC · Membro do LAMIA · Construindo o Tapys
+    <div style={{ display: 'flex', fontSize: 14, color: 'rgba(255,115,122,0.95)', fontWeight: 700, letterSpacing: '0.3px' }}>
+      Dev Fullstack · Deep Learning
     </div>
     <div style={{ display: 'flex', gap: 20, marginTop: 4 }}>
       {[
@@ -74,22 +74,11 @@
         );
       })}
     </div>
-    <div style={{ display: 'flex', gap: 8, marginTop: 6 }}>
-      {['Python', 'C', 'GDScript', 'LaTeX', 'Git'].map(function(tag) {
-        return (
-          <div key={tag} style={{
-            display: 'flex', padding: '4px 12px', borderRadius: 20,
-            background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.14)',
-            color: 'rgba(235,235,235,0.82)', fontSize: 12, fontWeight: 600,
-          }}>{tag}</div>
-        );
-      })}
-    </div>
   </div>
 </div>
 ```
 
-```aura width=860 height=96
+```aura width=860 height=84
 <div style={{
   width: '100%', height: '100%', background: '#08080c',
   display: 'flex', alignItems: 'center', justifyContent: 'space-around',
@@ -97,89 +86,138 @@
   border: '1px solid rgba(255,255,255,0.06)', padding: '0 28px', boxSizing: 'border-box',
 }}>
   {[
-    { label: 'Pesquisa aplicada', sub: 'IC em redes neurais para adsorção' },
-    { label: 'ML na indústria', sub: 'Bootcamp de machine learning aplicado' },
-    { label: 'Negócio próprio', sub: 'Presença digital para o comércio local' },
-    { label: 'Aprender fazendo', sub: 'Cursos curtos e projetos de verdade' },
+    { label: 'Pesquisa', sub: 'Em redes neurais' },
+    { label: 'Sistemas', sub: 'Do início ao fim' },
+    { label: 'Mente de empresário', sub: 'Tecnologia como negócio' },
+    { label: 'Aprender fazendo', sub: 'Projetos de verdade' },
   ].map(function(item) {
     return (
-      <div key={item.label} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-start', gap: 6, maxWidth: 190, height: 72 }}>
+      <div key={item.label} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 6, width: 180 }}>
         <div style={{ width: 10, height: 10, borderRadius: 5, background: '#ff5a64' }} />
         <span style={{ fontSize: 13, fontWeight: 700, color: '#ffffff', textAlign: 'center' }}>{item.label}</span>
-        <span style={{ fontSize: 11, color: 'rgba(235,235,235,0.82)', textAlign: 'center', lineHeight: 1.4 }}>{item.sub}</span>
+        <span style={{ fontSize: 11, color: 'rgba(235,235,235,0.82)', textAlign: 'center' }}>{item.sub}</span>
       </div>
     );
   })}
 </div>
 ```
 
-```aura width=860 height=100
-<div style={{
-  width: '100%', height: '100%', background: '#08080c',
-  display: 'flex', alignItems: 'center', justifyContent: 'center',
-  fontFamily: 'Inter', borderRadius: 16,
-  border: '1px solid rgba(255,255,255,0.14)',
-  position: 'relative', overflow: 'hidden',
-}}>
-  <style>{`
-    @keyframes sweep { 0%, 100% { transform: translateX(-180px); opacity: 0.25; } 50% { transform: translateX(180px); opacity: 0.95; } }
-    #quote-glow { animation: sweep 10s ease-in-out infinite; }
-  `}</style>
-  <svg width="860" height="100" style={{ position: 'absolute', top: 0, left: 0 }}>
-    <defs>
-      <radialGradient id="gq" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stopColor="rgba(255,80,90,0.22)" />
-        <stop offset="60%" stopColor="rgba(220,50,60,0.06)" />
-        <stop offset="100%" stopColor="rgba(220,50,60,0)" />
-      </radialGradient>
-    </defs>
-    <ellipse id="quote-glow" cx="430" cy="50" rx="320" ry="60" fill="url(#gq)" />
-  </svg>
-  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, textAlign: 'center' }}>
-    <span style={{ fontSize: 15, color: 'rgba(220,220,220,0.72)' }}>Todo modelo começa errando.</span>
-    <span style={{ fontSize: 15, fontWeight: 700, color: '#ffffff' }}>A graça está em ajustar.</span>
+```aura width=860 height=180
+(function() {
+  var layers = [3, 5, 6, 5, 2];
+  var xs = [150, 290, 430, 570, 710];
+  var cy = 78, gap = 24;
+  var nodes = layers.map(function(n, l) {
+    var arr = [];
+    for (var i = 0; i < n; i++) arr.push({ l: l, i: i, x: xs[l], y: cy - (n - 1) * gap / 2 + i * gap });
+    return arr;
+  });
+  var edges = [];
+  for (var l = 0; l < layers.length - 1; l++) {
+    for (var a = 0; a < nodes[l].length; a++) {
+      for (var b = 0; b < nodes[l + 1].length; b++) {
+        var p = nodes[l][a], q = nodes[l + 1][b];
+        edges.push({ id: 'ed' + l + '-' + a + '-' + b, x1: p.x, y1: p.y, x2: q.x, y2: q.y, delay: l * 0.5 + ((a * 3 + b) % 4) * 0.12 });
+      }
+    }
+  }
+  var all = [];
+  nodes.forEach(function(layer) { layer.forEach(function(n) { all.push(n); }); });
+  var css = '@keyframes sig { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -210; } } '
+    + '@keyframes pulse { 0%, 100% { opacity: 0.15; } 50% { opacity: 0.9; } } '
+    + edges.map(function(e) {
+        return '#' + e.id + ' { animation: sig 2.4s linear infinite ' + e.delay.toFixed(2) + 's; }';
+      }).join(' ') + ' '
+    + layers.map(function(n, l) {
+        return '[id^="nd' + l + '-"] { animation: pulse 2.4s ease-in-out infinite ' + (l * 0.5) + 's; }';
+      }).join(' ');
+
+  return (
+    <div style={{ width: '100%', height: '100%', display: 'flex', position: 'relative', overflow: 'hidden', background: '#08080c', borderRadius: 16, border: '1px solid rgba(255,255,255,0.14)', fontFamily: 'Inter' }}>
+      <style>{css}</style>
+      <svg width="860" height="180" style={{ position: 'absolute', top: 0, left: 0 }}>
+        <defs>
+          <radialGradient id="gn" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="rgba(255,80,90,0.16)" />
+            <stop offset="70%" stopColor="rgba(220,50,60,0)" />
+          </radialGradient>
+        </defs>
+        <ellipse cx="430" cy="80" rx="380" ry="110" fill="url(#gn)" />
+        {edges.map(function(e) {
+          return <line key={'b' + e.id} x1={e.x1} y1={e.y1} x2={e.x2} y2={e.y2} stroke="rgba(255,90,100,0.16)" strokeWidth="1" />;
+        })}
+        {edges.map(function(e) {
+          return <line key={e.id} id={e.id} x1={e.x1} y1={e.y1} x2={e.x2} y2={e.y2} stroke="#ff7b84" strokeWidth="2" strokeLinecap="round" strokeDasharray="6 204" />;
+        })}
+        {all.map(function(n) {
+          return <circle key={'h' + n.l + n.i} id={'nd' + n.l + '-' + n.i} cx={n.x} cy={n.y} r="12" fill="rgba(255,90,100,0.45)" />;
+        })}
+        {all.map(function(n) {
+          var out = n.l === layers.length - 1, inp = n.l === 0;
+          return <circle key={'c' + n.l + n.i} cx={n.x} cy={n.y} r="6.5" fill={out ? '#ff5a64' : '#14080a'} stroke={inp ? '#f5f5f5' : '#ff5a64'} strokeWidth="2" />;
+        })}
+      </svg>
+      {[
+        { x: 150, t: 'ENTRADA' },
+        { x: 430, t: 'CAMADAS OCULTAS' },
+        { x: 710, t: 'SAÍDA' },
+      ].map(function(lb) {
+        return (
+          <div key={lb.t} style={{ position: 'absolute', left: lb.x - 90, top: 152, width: 180, display: 'flex', justifyContent: 'center' }}>
+            <span style={{ fontSize: 10, fontWeight: 700, color: 'rgba(210,210,210,0.45)', letterSpacing: '2px' }}>{lb.t}</span>
+          </div>
+        );
+      })}
+    </div>
+  );
+})()
+```
+
+```aura width=276 height=150 link="https://nnadsorption-app.web.app/" inline align=center
+<div style={{ width: '100%', height: '100%', display: 'flex', padding: '0 6px', boxSizing: 'border-box', fontFamily: 'Inter', position: 'relative' }}>
+  <div style={{ display: 'flex', flexDirection: 'column', width: '100%', height: '100%', gap: 6, padding: '16px 18px', boxSizing: 'border-box', background: '#08080c', borderRadius: 14, border: '1px solid rgba(255,255,255,0.14)', position: 'relative' }}>
+    <span style={{ fontSize: 10, fontWeight: 700, color: '#ff5a64', letterSpacing: '1.5px' }}>PESQUISA</span>
+    <span style={{ fontSize: 17, fontWeight: 700, color: '#ffffff' }}>NNAdsorption</span>
+    <span style={{ fontSize: 12, color: 'rgba(235,235,235,0.78)', lineHeight: 1.5 }}>Redes neurais que modelam adsorção. Apresentada no CNMAC 2026.</span>
   </div>
+  <svg width="276" height="150" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <path d="M243 27 L249 21 M244 21 H249 V26" stroke="rgba(255,255,255,0.6)" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
 </div>
 ```
 
-```aura width=860 height=200
-<div style={{
-  width: '100%', height: '100%', background: '#08080c',
-  display: 'flex', flexDirection: 'column',
-  fontFamily: 'Inter', padding: '18px 32px', gap: 14, boxSizing: 'border-box',
-  borderRadius: 16, border: '1px solid rgba(255,255,255,0.14)',
-}}>
-  <div style={{ display: 'flex', fontSize: 10, fontWeight: 700, color: 'rgba(210,210,210,0.5)', letterSpacing: '3px' }}>
-    PROJETOS
+```aura width=276 height=150 link="https://glazzy.pages.dev" inline align=center
+<div style={{ width: '100%', height: '100%', display: 'flex', padding: '0 6px', boxSizing: 'border-box', fontFamily: 'Inter', position: 'relative' }}>
+  <div style={{ display: 'flex', flexDirection: 'column', width: '100%', height: '100%', gap: 6, padding: '16px 18px', boxSizing: 'border-box', background: '#08080c', borderRadius: 14, border: '1px solid rgba(255,255,255,0.14)', position: 'relative' }}>
+    <span style={{ fontSize: 10, fontWeight: 700, color: '#ff5a64', letterSpacing: '1.5px' }}>SISTEMA</span>
+    <span style={{ fontSize: 17, fontWeight: 700, color: '#ffffff' }}>Glazzy</span>
+    <span style={{ fontSize: 12, color: 'rgba(235,235,235,0.78)', lineHeight: 1.5 }}>ERP para vidraçarias com desenho técnico, orçamentos, recibos e financeiro.</span>
   </div>
-  <div style={{ display: 'flex', gap: 14 }}>
-    {[
-      { tag: 'PESQUISA', title: 'NNAdsorption', text: 'Redes neurais que modelam adsorção. Apresentada no CNMAC 2026. A próxima etapa traz PINNs.' },
-      { tag: 'NEGÓCIO', title: 'Tapys', text: 'Token NFC que abre uma página de links para o comércio local.' },
-      { tag: 'JOGO', title: 'Hero Maze', text: 'Jogo em Godot 4 com pixel art no Aseprite. Fui vice-líder e artista principal.' },
-    ].map(function(p) {
-      return (
-        <div key={p.title} style={{
-          display: 'flex', flexDirection: 'column', flex: 1, gap: 6,
-          padding: '14px 16px', borderRadius: 10,
-          background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.12)',
-        }}>
-          <span style={{ fontSize: 10, fontWeight: 700, color: '#ff5a64', letterSpacing: '1.5px' }}>{p.tag}</span>
-          <span style={{ fontSize: 17, fontWeight: 700, color: '#ffffff' }}>{p.title}</span>
-          <span style={{ fontSize: 12, color: 'rgba(235,235,235,0.78)', lineHeight: 1.5 }}>{p.text}</span>
-        </div>
-      );
-    })}
+  <svg width="276" height="150" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <path d="M243 27 L249 21 M244 21 H249 V26" stroke="rgba(255,255,255,0.6)" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+</div>
+```
+
+```aura width=276 height=150 link="https://thefenexy.itch.io/hero-maze" inline align=center
+<div style={{ width: '100%', height: '100%', display: 'flex', padding: '0 6px', boxSizing: 'border-box', fontFamily: 'Inter', position: 'relative' }}>
+  <div style={{ display: 'flex', flexDirection: 'column', width: '100%', height: '100%', gap: 6, padding: '16px 18px', boxSizing: 'border-box', background: '#08080c', borderRadius: 14, border: '1px solid rgba(255,255,255,0.14)', position: 'relative' }}>
+    <span style={{ fontSize: 10, fontWeight: 700, color: '#ff5a64', letterSpacing: '1.5px' }}>JOGO</span>
+    <span style={{ fontSize: 17, fontWeight: 700, color: '#ffffff' }}>Hero Maze</span>
+    <span style={{ fontSize: 12, color: 'rgba(235,235,235,0.78)', lineHeight: 1.5 }}>Jogo educativo em Godot 4 com pixel art. Fui vice-líder e artista principal.</span>
   </div>
+  <svg width="276" height="150" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <path d="M243 27 L249 21 M244 21 H249 V26" stroke="rgba(255,255,255,0.6)" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
 </div>
 ```
 
 ```aura width=860 height=160
 (function() {
   var categories = [
-    { title: 'Linguagens', color: '#f5f5f5', items: ['Python', 'C', 'GDScript', 'LaTeX'] },
-    { title: 'Ferramentas', color: '#b8b8b8', items: ['Git', 'GitHub', 'Godot 4', 'Aseprite', 'Overleaf'] },
-    { title: 'Estudando', color: '#ff5a64', items: ['Redes neurais', 'PINNs', 'Machine Learning aplicado'] },
+    { title: 'Linguagens', color: '#f5f5f5', items: ['Python', 'Java', 'Dart', 'SQL'] },
+    { title: 'Fullstack', color: '#b8b8b8', items: ['Flutter', 'FastAPI', 'Supabase', 'Git'] },
+    { title: 'Machine Learning', color: '#ff5a64', items: ['PyTorch', 'TensorFlow', 'Keras', 'NumPy', 'Pandas'] },
   ];
 
   return (
@@ -215,7 +253,7 @@
         {categories.map(function(cat) {
           return (
             <div key={cat.title} style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
-              <div style={{ display: 'flex', fontSize: 10, fontWeight: 700, color: cat.color, letterSpacing: '1px', width: 96 }}>
+              <div style={{ display: 'flex', fontSize: 10, fontWeight: 700, color: cat.color, letterSpacing: '1px', width: 124 }}>
                 {cat.title.toUpperCase()}
               </div>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 7 }}>
@@ -256,12 +294,48 @@
 />
 ```
 
-```aura width=120 height=44 link="https://github.com/EduardoStaudt" inline align=center
+```aura width=128 height=44 link="https://www.instagram.com/SEU-INSTAGRAM/" inline align=center
 <SocialMediaButton
-  icon="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iNDgiCiAgaGVpZ2h0PSI0OCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiNmZmZmZmYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgogIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLWJyYW5kLWdpdGh1YiIKPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIgLz4KICA8cGF0aCBkPSJNOSAxOWMtNC4zIDEuNCAtNC4zIC0yLjUgLTYgLTNtMTIgNXYtMy41YzAgLTEgLjEgLTEuNCAtLjUgLTJjMi44IC0uMyA1LjUgLTEuNCA1LjUgLTZhNC42IDQuNiAwIDAgMCAtMS4zIC0zLjJhNC4yIDQuMiAwIDAgMCAtLjEgLTMuMnMtMS4xIC0uMyAtMy41IDEuM2ExMi4zIDEyLjMgMCAwIDAgLTYuMiAwYy0yLjQgLTEuNiAtMy41IC0xLjMgLTMuNSAtMS4zYTQuMiA0LjIgMCAwIDAgLS4xIDMuMmE0LjYgNC42IDAgMCAwIC0xLjMgMy4yYzAgNC42IDIuNyA1LjcgNS41IDZjLS42IC42IC0uNiAxLjIgLS41IDJ2My41IiAvPgo8L3N2Zz4="
-  text="GitHub"
+  icon="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iNDgiCiAgaGVpZ2h0PSI0OCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiNmZmZmZmYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgogIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLWJyYW5kLWluc3RhZ3JhbSIKPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIgLz4KICA8cGF0aCBkPSJNMyA3YTQgNCAwIDAgMSA0IC00aDEwYTQgNCAwIDAgMSA0IDR2MTBhNCA0IDAgMCAxIC00IDRoLTEwYTQgNCAwIDAgMSAtNCAtNGwwIC0xMCIgLz4KICA8cGF0aCBkPSJNOC41IDEyYTMuNSAzLjUgMCAxIDAgNyAwYTMuNSAzLjUgMCAwIDAgLTcgMCIgLz4KICA8cGF0aCBkPSJNMTcgN3YuMDEiIC8+Cjwvc3ZnPg=="
+  text="Instagram"
+  backgroundColor="#111111"
+  width={128}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#ffffff' },
+    { offset: '10%', color: '#111111' },
+    { offset: '50%', color: '#ff5a64' },
+    { offset: '60%', color: '#ffffff' },
+    { offset: '80%', color: '#000000' },
+    { offset: '100%', color: '#8c2a31' },
+  ]}
+/>
+```
+
+```aura width=120 height=44 link="https://www.youtube.com/@SEU-CANAL" inline align=center
+<SocialMediaButton
+  icon="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iNDgiCiAgaGVpZ2h0PSI0OCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiNmZmZmZmYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgogIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLWJyYW5kLXlvdXR1YmUiCj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiIC8+CiAgPHBhdGggZD0iTTIgOGE0IDQgMCAwIDEgNCAtNGgxMmE0IDQgMCAwIDEgNCA0djhhNCA0IDAgMCAxIC00IDRoLTEyYTQgNCAwIDAgMSAtNCAtNHYtOCIgLz4KICA8cGF0aCBkPSJNMTAgOWw1IDNsLTUgM2wwIC02IiAvPgo8L3N2Zz4="
+  text="YouTube"
   backgroundColor="#111111"
   width={120}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#ffffff' },
+    { offset: '10%', color: '#111111' },
+    { offset: '50%', color: '#ff5a64' },
+    { offset: '60%', color: '#ffffff' },
+    { offset: '80%', color: '#000000' },
+    { offset: '100%', color: '#8c2a31' },
+  ]}
+/>
+```
+
+```aura width=110 height=44 link="mailto:programadorstaudt@gmail.com" inline align=center
+<SocialMediaButton
+  icon="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iNDgiCiAgaGVpZ2h0PSI0OCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiNmZmZmZmYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgogIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLW1haWwiCj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiIC8+CiAgPHBhdGggZD0iTTMgN2EyIDIgMCAwIDEgMiAtMmgxNGEyIDIgMCAwIDEgMiAydjEwYTIgMiAwIDAgMSAtMiAyaC0xNGEyIDIgMCAwIDEgLTIgLTJ2LTEwIiAvPgogIDxwYXRoIGQ9Ik0zIDdsOSA2bDkgLTYiIC8+Cjwvc3ZnPg=="
+  text="E-mail"
+  backgroundColor="#111111"
+  width={110}
   height={44}
   gradientStops={[
     { offset: '0%', color: '#ffffff' },
