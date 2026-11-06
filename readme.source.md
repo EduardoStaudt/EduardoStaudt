@@ -54,7 +54,7 @@
       Eduardo Staudt
     </div>
     <div style={{ display: 'flex', fontSize: 15, color: 'rgba(220,220,220,0.80)', fontWeight: 400, letterSpacing: '0.3px' }}>
-      Ciência da Computação (UTFPR) e Ciências Econômicas (Uninter)
+      Graduando em Ciência da Computação (UTFPR) e Ciências Econômicas (Uninter)
     </div>
     <div style={{ display: 'flex', fontSize: 14, color: 'rgba(255,115,122,0.95)', fontWeight: 700, letterSpacing: '0.3px' }}>
       Dev Fullstack · Deep Learning
@@ -178,7 +178,7 @@
   <div style={{ display: 'flex', flexDirection: 'column', width: '100%', height: '100%', gap: 6, padding: '16px 18px', boxSizing: 'border-box', background: '#08080c', borderRadius: 14, border: '1px solid rgba(255,255,255,0.14)', position: 'relative' }}>
     <span style={{ fontSize: 10, fontWeight: 700, color: '#ff5a64', letterSpacing: '1.5px' }}>PESQUISA</span>
     <span style={{ fontSize: 17, fontWeight: 700, color: '#ffffff' }}>NNAdsorption</span>
-    <span style={{ fontSize: 12, color: 'rgba(235,235,235,0.78)', lineHeight: 1.5 }}>Redes neurais que modelam adsorção. Apresentada no CNMAC 2026.</span>
+    <span style={{ fontSize: 12, color: 'rgba(235,235,235,0.78)', lineHeight: 1.5 }}>Redes neurais que modelam adsorção. Apresentada no CNMAC 2026 e SICITE 2026.</span>
   </div>
   <svg width="276" height="150" style={{ position: 'absolute', top: 0, left: 0 }}>
     <path d="M243 27 L249 21 M244 21 H249 V26" stroke="rgba(255,255,255,0.6)" strokeWidth="1.6" fill="none" strokeLinecap="round" strokeLinejoin="round" />
@@ -215,9 +215,9 @@
 ```aura width=860 height=160
 (function() {
   var categories = [
-    { title: 'Linguagens', color: '#f5f5f5', items: ['Python', 'Java', 'Dart', 'SQL'] },
-    { title: 'Fullstack', color: '#b8b8b8', items: ['Flutter', 'FastAPI', 'Supabase', 'Git'] },
-    { title: 'Machine Learning', color: '#ff5a64', items: ['PyTorch', 'TensorFlow', 'Keras', 'NumPy', 'Pandas'] },
+    { title: 'Linguagens', color: '#f5f5f5', items: ['Python', 'Java', 'Flutter', 'SQL', 'Dart', 'SQL', 'Dart', 'SQL', 'Dart', 'SQL'] },
+    { title: 'Machine Learning', color: '#ff5a64', items: ['PyTorch', 'TensorFlow', 'Keras', 'NumPy', 'Pandas', 'MLPs', 'PINNs'] },
+    { title: 'Estudando', color: '#b8b8b8', items: ['Next.js', 'Programação Funcional', 'Plataformas de Hospedagem', 'Visão Computacional'] },
   ];
 
   return (
@@ -294,7 +294,7 @@
 />
 ```
 
-```aura width=128 height=44 link="https://www.instagram.com/SEU-INSTAGRAM/" inline align=center
+```aura width=128 height=44 link="https://www.instagram.com/eduardo_staudt_/" inline align=center
 <SocialMediaButton
   icon="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iNDgiCiAgaGVpZ2h0PSI0OCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiNmZmZmZmYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgogIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLWJyYW5kLWluc3RhZ3JhbSIKPgogIDxwYXRoIHN0cm9rZT0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIgLz4KICA8cGF0aCBkPSJNMyA3YTQgNCAwIDAgMSA0IC00aDEwYTQgNCAwIDAgMSA0IDR2MTBhNCA0IDAgMCAxIC00IDRoLTEwYTQgNCAwIDAgMSAtNCAtNGwwIC0xMCIgLz4KICA8cGF0aCBkPSJNOC41IDEyYTMuNSAzLjUgMCAxIDAgNyAwYTMuNSAzLjUgMCAwIDAgLTcgMCIgLz4KICA8cGF0aCBkPSJNMTcgN3YuMDEiIC8+Cjwvc3ZnPg=="
   text="Instagram"
@@ -312,7 +312,7 @@
 />
 ```
 
-```aura width=120 height=44 link="https://www.youtube.com/@SEU-CANAL" inline align=center
+```aura width=120 height=44 link="https://www.youtube.com/@EduardoAndreiStaudt" inline align=center
 <SocialMediaButton
   icon="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iNDgiCiAgaGVpZ2h0PSI0OCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiNmZmZmZmYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgogIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb25zLXRhYmxlci1vdXRsaW5lIGljb24tdGFibGVyLWJyYW5kLXlvdXR1YmUiCj4KICA8cGF0aCBzdHJva2U9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiIC8+CiAgPHBhdGggZD0iTTIgOGE0IDQgMCAwIDEgNCAtNGgxMmE0IDQgMCAwIDEgNCA0djhhNCA0IDAgMCAxIC00IDRoLTEyYTQgNCAwIDAgMSAtNCAtNHYtOCIgLz4KICA8cGF0aCBkPSJNMTAgOWw1IDNsLTUgM2wwIC02IiAvPgo8L3N2Zz4="
   text="YouTube"
