@@ -1,4 +1,4 @@
-<img src="./.github/assets/readme-aura-component-0-d3c8c05c.svg" alt="readme-aura-component-0" width="100%">
+<img src="./.github/assets/readme-aura-component-0-1dd9a5d8.svg" alt="readme-aura-component-0" width="100%">
 
 <a href="https://eduardostaudt.vercel.app/"><img src="./.github/assets/readme-aura-component-1-a8e2daec.svg" alt="readme-aura-component-1" width="100%"></a>
 
@@ -6,7 +6,7 @@
 <a href="https://nnadsorption-app.web.app/"><img src="./.github/assets/readme-aura-component-2-21fe4f10.svg" width="33.139%" align="top" /></a><a href="https://glazzy.pages.dev"><img src="./.github/assets/readme-aura-component-3-22e2c9db.svg" width="33.72%" align="top" /></a><a href="https://thefenexy.itch.io/hero-maze"><img src="./.github/assets/readme-aura-component-4-d88ee0c2.svg" width="33.139%" align="top" /></a>
 </p>
 
-<img src="./.github/assets/readme-aura-component-5-b05fa415.svg" alt="readme-aura-component-5" width="100%">
+<img src="./.github/assets/readme-aura-component-5-3d231319.svg" alt="readme-aura-component-5" width="100%">
 
 <img src="./.github/assets/readme-aura-component-6-b6a0c8f7.svg" alt="readme-aura-component-6" width="100%">
 
